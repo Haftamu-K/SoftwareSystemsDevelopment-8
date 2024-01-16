@@ -37,3 +37,10 @@ body {
 button:focus {
     border: 1px solid #333;
 }
+
+.name-title {
+    font-size: 18px;
+    font-family: 'Courier';
+    font-weight: bold;
+    text-align: left;
+}

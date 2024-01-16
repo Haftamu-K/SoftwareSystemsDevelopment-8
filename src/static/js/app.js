@@ -1,13 +1,29 @@
+
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
+            <Row className="name-title name primary">
+                <Col md={{ offset: 3, span: 6 }}>
+                    <NameCard />
+                </Col>
+                
+            </Row>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>
             </Row>
         </Container>
+    );
+}
+
+function NameCard() {
+
+    return (
+        <React.Fragment >
+            Haftamu Kahsay's ToDo 
+        </React.Fragment>
     );
 }
 
